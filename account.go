@@ -1,6 +1,7 @@
 package authservices
 
 import (
+	abstract "github.com/Dparty/dao/abstract"
 	"github.com/Dparty/dao/auth"
 )
 
@@ -18,6 +19,10 @@ type Account struct {
 
 func (a Account) ID() uint {
 	return a.entity.ID()
+}
+
+func (a Account) Own(asset abstract.Asset) bool {
+	return a.ID() == asset.Owner().ID()
 }
 
 func (a Account) Role() AccountRole {
