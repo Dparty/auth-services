@@ -73,10 +73,11 @@ func (a AuthService) Auth() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		auth := Authorize(c)
 		fmt.Println(auth)
-		// if auth.Status == Authorized {
-		// 	account := a.GetAccount(auth.AccountId)
-		// 	c.Set("account", account)
-		// }
+		if auth.Status == Authorized {
+			account := a.GetAccount(auth.AccountId)
+			fmt.Println(account)
+			// c.Set("account", account)
+		}
 		c.Next()
 	}
 }
