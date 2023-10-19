@@ -72,11 +72,9 @@ func (a AuthService) VerifyToken(token string) (Account, error) {
 func (a AuthService) Auth() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		auth := Authorize(c)
-		fmt.Println(auth)
 		if auth.Status == Authorized {
 			account := a.GetAccount(auth.AccountId)
-			fmt.Println(account)
-			// c.Set("account", account)
+			c.Set("account", account)
 		}
 		c.Next()
 	}

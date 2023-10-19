@@ -42,6 +42,8 @@ github.com/Dparty/common v0.0.0-20230929033726-ff769bca8c94 h1:YYt8QQbi9RQB+0GDu
 github.com/Dparty/common v0.0.0-20230929033726-ff769bca8c94/go.mod h1:sY807DCbNdj2+kTNspZcO7/X1zJBmTmxy5TSQA7+lL8=
 github.com/Dparty/dao v0.0.0-20231019033252-c898a1611563 h1:bkKL5s8HQCJbF7JM8wsuw5b3dl6rnC/MEQe6mRcTcbI=
 github.com/Dparty/dao v0.0.0-20231019033252-c898a1611563/go.mod h1:RmzSSQbCA4HQuNrT90g9qnAZTrp4V7TkrL/8glYVAoM=
+github.com/Dparty/dao v0.0.0-20231019065120-5af24f478ff1 h1:SZ+lUSK5xhg08hAhBkW3979WDmjW6jRK9hx4jcit3Hs=
+github.com/Dparty/dao v0.0.0-20231019065120-5af24f478ff1/go.mod h1:RmzSSQbCA4HQuNrT90g9qnAZTrp4V7TkrL/8glYVAoM=
 github.com/bwmarrin/snowflake v0.3.0 h1:xm67bEhkKh6ij1790JB83OujPR5CzNe8QuQqAgISZN0=
 github.com/bwmarrin/snowflake v0.3.0/go.mod h1:NdZxfVWX+oR6y2K0o6qAYv6gIOP9rjG0/E9WsDpxqwE=
 github.com/bytedance/sonic v1.5.0/go.mod h1:ED5hyg4y6t3/9Ku1R6dU/4KyJ48DZ4jPhfY1O2AihPM=

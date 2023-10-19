@@ -4,7 +4,7 @@ go 1.21.1
 
 require (
 	github.com/Dparty/common v0.0.0-20230929033726-ff769bca8c94 // indirect
-	github.com/Dparty/dao v0.0.0-20231019033252-c898a1611563 // indirect
+	github.com/Dparty/dao v0.0.0-20231019065120-5af24f478ff1 // indirect
 	github.com/bwmarrin/snowflake v0.3.0 // indirect
 	github.com/bytedance/sonic v1.10.0-rc2 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20230717121745-296ad89f973d // indirect
