@@ -75,6 +75,7 @@ func (a AuthService) Auth() gin.HandlerFunc {
 		if auth.Status == Authorized {
 			account := a.GetAccount(auth.AccountId)
 			c.Set("account", *account)
+			c.Set("test", Account{})
 		}
 		c.Next()
 	}
