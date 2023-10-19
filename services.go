@@ -1,10 +1,9 @@
 package authservices
 
 import (
-	"time"
+	"fmt"
 
 	"github.com/Dparty/common/fault"
-	"github.com/Dparty/common/utils"
 	"github.com/Dparty/dao/auth"
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
@@ -20,23 +19,24 @@ type AuthService struct {
 
 func (a AuthService) CreateSession(email, password string) (string, error) {
 	account := a.accountRepository.GetByEmail(email)
-	if account == nil {
-		return "", fault.ErrUnauthorized
-	}
-	if !utils.PasswordsMatch(account.Password, password, account.Salt) {
-		return "", fault.ErrUnauthorized
-	}
-	expiredAt := time.Now().AddDate(1, 0, 0).Unix()
-	token, err := utils.SignJwt(
-		utils.UintToString(account.ID()),
-		account.Email,
-		string(account.Role),
-		expiredAt,
-	)
-	if err != nil {
-		return "", fault.ErrUndefined
-	}
-	return token, nil
+	fmt.Println(account)
+	// if account == nil {
+	// 	return "", fault.ErrUnauthorized
+	// }
+	// if !utils.PasswordsMatch(account.Password, password, account.Salt) {
+	// 	return "", fault.ErrUnauthorized
+	// }
+	// expiredAt := time.Now().AddDate(1, 0, 0).Unix()
+	// token, err := utils.SignJwt(
+	// 	utils.UintToString(account.ID()),
+	// 	account.Email,
+	// 	string(account.Role),
+	// 	expiredAt,
+	// )
+	// if err != nil {
+	// 	return "", fault.ErrUndefined
+	// }
+	return "token", nil
 }
 
 func (a AuthService) CreateAccount(email, password string) (Account, error) {
