@@ -25,6 +25,10 @@ func (a Account) Own(asset abstract.Asset) bool {
 	return a.ID() == asset.Owner().ID()
 }
 
+func (a Account) Owner() abstract.Owner {
+	return nil
+}
+
 func (a Account) Role() AccountRole {
 	return AccountRole(a.entity.Role)
 }
