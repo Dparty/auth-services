@@ -1,7 +1,6 @@
 package authservices
 
 import (
-	"fmt"
 	"time"
 
 	"github.com/Dparty/common/fault"
