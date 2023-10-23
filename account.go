@@ -32,3 +32,7 @@ func (a Account) Owner() abstract.Owner {
 func (a Account) Role() AccountRole {
 	return AccountRole(a.entity.Role)
 }
+
+func (a Account) Email() string {
+	return a.entity.Email
+}
