@@ -21,7 +21,6 @@ type AuthService struct {
 
 func (a AuthService) CreateSession(email, password string) (string, error) {
 	account := a.accountRepository.GetByEmail(email)
-	fmt.Println(account)
 	if account == nil {
 		return "", fault.ErrUnauthorized
 	}
