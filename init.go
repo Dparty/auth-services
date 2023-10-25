@@ -1,7 +1,10 @@
 package authservices
 
-// var accountRepository auth.AccountRepository
+import (
+	"github.com/Dparty/dao/auth"
+	"gorm.io/gorm"
+)
 
-// func Init(inject *gorm.DB) {
-// 	accountRepository = auth.NewAccountRepository(inject)
-// }
+func Init(inject *gorm.DB) {
+	auth.Init(inject)
+}
