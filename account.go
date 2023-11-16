@@ -1,7 +1,7 @@
 package authservices
 
 import (
-	abstract "github.com/Dparty/dao/abstract"
+	abstract "github.com/Dparty/common/abstract"
 	"github.com/Dparty/dao/auth"
 )
 
@@ -22,7 +22,7 @@ func (a Account) ID() uint {
 }
 
 func (a Account) Own(asset abstract.Asset) bool {
-	return a.ID() == asset.Owner().ID()
+	return abstract.Own(a, asset)
 }
 
 func (a Account) Owner() abstract.Owner {
