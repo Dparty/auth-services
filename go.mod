@@ -3,7 +3,7 @@ module github.com/Dparty/auth-services
 go 1.21.1
 
 require (
-	github.com/Dparty/common v0.0.0-20231116073827-4e6f998c5355 // indirect
+	github.com/Dparty/common v0.0.0-20231116081526-d4557a18ca69 // indirect
 	github.com/Dparty/dao v0.0.0-20231019065120-5af24f478ff1 // indirect
 	github.com/bwmarrin/snowflake v0.3.0 // indirect
 	github.com/bytedance/sonic v1.10.0-rc2 // indirect
