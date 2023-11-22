@@ -7,11 +7,19 @@ import (
 	"github.com/Dparty/common/utils"
 	"github.com/Dparty/dao/auth"
 	"github.com/gin-gonic/gin"
-	"gorm.io/gorm"
 )
 
-func NewAuthService(inject *gorm.DB) AuthService {
-	return AuthService{accountRepository: auth.NewAccountRepository(inject)}
+var authServices *AuthService
+
+func GetAuthService() *AuthService {
+	if authServices == nil {
+		authServices = NewAuthService()
+	}
+	return authServices
+}
+
+func NewAuthService() *AuthService {
+	return &AuthService{accountRepository: *auth.GetAccountRepository()}
 }
 
 type AuthService struct {
