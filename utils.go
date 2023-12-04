@@ -47,8 +47,6 @@ func AuthorizeByJWT(token string) Authentication {
 	}
 	return Authentication{
 		Status:    Authorized,
-		Email:     claims["email"].(string),
 		AccountId: utils.StringToUint(claims["id"].(string)),
-		Role:      AccountRole(claims["role"].(string)),
 	}
 }
