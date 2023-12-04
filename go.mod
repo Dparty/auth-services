@@ -3,8 +3,12 @@ module github.com/Dparty/auth-services
 go 1.21.1
 
 require (
-	github.com/Dparty/common v0.0.0-20231204061145-f9e546f5f62b // indirect
-	github.com/Dparty/dao v0.0.0-20231130075946-768f1fff262f // indirect
+	github.com/Dparty/common v0.0.0-20231204090740-35bb28ffc7e3
+	github.com/Dparty/dao v0.0.0-20231130075946-768f1fff262f
+	github.com/gin-gonic/gin v1.9.1
+)
+
+require (
 	github.com/bwmarrin/snowflake v0.3.0 // indirect
 	github.com/bytedance/sonic v1.10.0-rc2 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20230717121745-296ad89f973d // indirect
@@ -12,7 +16,6 @@ require (
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
-	github.com/gin-gonic/gin v1.9.1 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.14.1 // indirect
