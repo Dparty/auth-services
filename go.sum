@@ -40,6 +40,8 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/Dparty/common v0.0.0-20231204090740-35bb28ffc7e3 h1:21LSGyZxfd9Vjo8LUDTK+kQlVLTzUSVefQ0xaZNdLVA=
 github.com/Dparty/common v0.0.0-20231204090740-35bb28ffc7e3/go.mod h1:EWX/G93OLrM4VZ48K3ckvOMMGgTjdWa9gzCyJLS1DRw=
+github.com/Dparty/common v0.0.0-20231204091534-90b252024099 h1:1wSxbc2lMMYntkuVsm32WVa0KcgoQg8IKoR6tM2jUgQ=
+github.com/Dparty/common v0.0.0-20231204091534-90b252024099/go.mod h1:EWX/G93OLrM4VZ48K3ckvOMMGgTjdWa9gzCyJLS1DRw=
 github.com/Dparty/dao v0.0.0-20231130075946-768f1fff262f h1:5VzNPjQj77+1UfdDXkQaEWTJHNqudLesk3vUWSTeJrE=
 github.com/Dparty/dao v0.0.0-20231130075946-768f1fff262f/go.mod h1:DFs9wMtwQMyP+9CvLA4/Hi7jdez2+fXX/1u/bVupLe0=
 github.com/bwmarrin/snowflake v0.3.0 h1:xm67bEhkKh6ij1790JB83OujPR5CzNe8QuQqAgISZN0=
