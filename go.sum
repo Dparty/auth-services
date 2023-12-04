@@ -52,6 +52,8 @@ github.com/Dparty/common v0.0.0-20231122030430-eceab0964974 h1:2W3/Q5hcj+ats3r6v
 github.com/Dparty/common v0.0.0-20231122030430-eceab0964974/go.mod h1:0MkPaoUno+tNT4QvJ1cQr5n8O7ZNLAC28H8Okxobi+8=
 github.com/Dparty/common v0.0.0-20231130064223-d8a97151b7f1 h1:c/pM+oB+IOYWqcoObM8taNmSBZX2iGvMFKJZuC8cA1g=
 github.com/Dparty/common v0.0.0-20231130064223-d8a97151b7f1/go.mod h1:0MkPaoUno+tNT4QvJ1cQr5n8O7ZNLAC28H8Okxobi+8=
+github.com/Dparty/common v0.0.0-20231204061145-f9e546f5f62b h1:ZpiT1J0reGFy5o0hPLPspGblHYeAGDOwjVBiK2fsP+U=
+github.com/Dparty/common v0.0.0-20231204061145-f9e546f5f62b/go.mod h1:EWX/G93OLrM4VZ48K3ckvOMMGgTjdWa9gzCyJLS1DRw=
 github.com/Dparty/dao v0.0.0-20231019033252-c898a1611563 h1:bkKL5s8HQCJbF7JM8wsuw5b3dl6rnC/MEQe6mRcTcbI=
 github.com/Dparty/dao v0.0.0-20231019033252-c898a1611563/go.mod h1:RmzSSQbCA4HQuNrT90g9qnAZTrp4V7TkrL/8glYVAoM=
 github.com/Dparty/dao v0.0.0-20231019065120-5af24f478ff1 h1:SZ+lUSK5xhg08hAhBkW3979WDmjW6jRK9hx4jcit3Hs=
